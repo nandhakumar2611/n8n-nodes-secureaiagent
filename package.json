@@ -31,11 +31,13 @@
 		"n8nNodesApiVersion": 1,
 		"strict": true,
 		"credentials": [
-			"dist/credentials/Secureagentanthropicapi.credentials.js",
-			"dist/credentials/Secureagentopenaiapi.credentials.js"
+			
 		],
 		"nodes": [
-			"dist/nodes/Secureaiagent/Secureaiagent.node.js"
+			"dist/nodes/Customaiagent/Customaiagent.node.js",
+			"dist/nodes/Customaiagent/Customchatmodel.node.js",
+			"dist/nodes/Customaiagent/Custommemory.node.js",
+			"dist/nodes/Customaiagent/Customtool.node.js"
 		]
 	},
 	"devDependencies": {

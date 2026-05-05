@@ -1,5 +1,5 @@
 {
-	"name": "n8n-nodes-<...>",
+	"name": "n8n-nodes-secureaiagent",
 	"version": "0.1.0",
 	"description": "",
 	"license": "MIT",
@@ -8,8 +8,8 @@
 		"n8n-community-node-package"
 	],
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "nandhakumar2611",
+		"email": "unandhakumar2000@gmail.com"
 	},
 	"repository": {
 		"type": "git",
@@ -31,12 +31,11 @@
 		"n8nNodesApiVersion": 1,
 		"strict": true,
 		"credentials": [
-			"dist/credentials/GithubIssuesApi.credentials.js",
-			"dist/credentials/GithubIssuesOAuth2Api.credentials.js"
+			"dist/credentials/Secureagentanthropicapi.credentials.js",
+			"dist/credentials/Secureagentopenaiapi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/GithubIssues/GithubIssues.node.js",
-			"dist/nodes/Example/Example.node.js"
+			"dist/nodes/Secureaiagent/Secureaiagent.node.js"
 		]
 	},
 	"devDependencies": {
